@@ -9,6 +9,7 @@ def batch_badge_creator(name)
     puts "#{badge_maker(i)}"
     name_array << badge_maker(i)
   end
+  name_array
 end
 
 def assign_rooms
