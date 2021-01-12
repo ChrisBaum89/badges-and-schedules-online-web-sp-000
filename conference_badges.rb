@@ -13,7 +13,7 @@ end
 
 def assign_rooms(attendees)
   new_array = Array.new
-  
+
   "Hello, Edsger! You'll be assigned to room 1!"
 end
 
