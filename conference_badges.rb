@@ -6,7 +6,7 @@ end
 def batch_badge_creator(name)
   name_array = Array.new
   name.each do |i|
-    puts "#{badge_maker(i)}"
+    #puts "#{badge_maker(i)}"
     name_array << badge_maker(i)
   end
   name_array
