@@ -4,7 +4,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  name_array = badge_maker(name)
+  name_array << badge_maker(name)
 end
 
 def assign_rooms
